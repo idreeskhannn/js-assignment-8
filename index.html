@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h4>
+        Question 1
+    </h4>
+    <div>
+
+        <div id="click1" onclick="showAlert()">
+            <a href="#"><b>Click me</b></a>
+
+        </div>
+
+
+
+        <h4>
+            Question 2
+        </h4>
+
+        <div id="click2">
+
+
+            <img class="img1"
+                src="https://www.dhresource.com/0x0s/f2-albu-g17-M01-AC-F0-rBVa4l-04CSAEsGhAANodbh1tFc856.jpg/original-realme-q2-5g-mobile-phone-4gb-ram.jpg"
+                alt="Mobile 1" onclick="showMessage('Thanks for purchasing realme from us')">
+            <img class="img1"
+                src="https://www.chooseyourmobile.com/wp-content/uploads/2020/10/vivo-V20-Sunset-Black-White-Blue-Colors-1280x853.jpg"
+                alt="Mobile 2" onclick="showMessage('Thanks for purchasing VIVo from us')">
+            <img class="img1"
+                src="https://www.chooseyourmobile.com/wp-content/uploads/2020/09/OnePlus-8T-Green-Silver-Colors-Image-1280x853.jpg"
+                alt="Mobile 3" onclick="showMessage('Thanks for purchasing one plus from us')">
+        </div>
+
+
+
+        <h4>
+            Question 3
+        </h4>
+        <div id="click3">
+
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Grade</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>idrees</td>
+                        <td>A</td>
+                        <td><button onclick="deleteRow(this)">Delete</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>abdur rehman</td>
+                        <td>A+</td>
+                        <td><button onclick="deleteRow(this)">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>idrees khan</td>
+                        <td>b</td>
+                        <td><button onclick="deleteRow(this)">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>shakir</td>
+                        <td>c</td>
+                        <td><button onclick="deleteRow(this)">Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>zubair</td>
+                        <td>d</td>
+                        <td><button onclick="deleteRow(this)">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+        <h4>
+            Question 4
+        </h4>
+
+
+        <div id="imageContainer" onmouseover="changeImage()" onmouseout="resetImage()">
+            <img id="myImage" src="https://picsum.photos/300/200?random=1" alt="Original Image">
+        </div>
+
+
+
+
+
+
+        <h4>
+            Question 5
+        </h4>
+
+
+        <div id="click5">
+            <p id="counterDisplay">Counter: <span id="counterValue">0</span></p>
+            <button onclick="increaseCounter()">+</button>
+            <button onclick="decreaseCounter()">-</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

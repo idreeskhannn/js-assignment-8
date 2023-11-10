@@ -1,0 +1,94 @@
+#click1{
+margin: 50px auto;
+width: 50%;
+text-align: center;
+color: white;
+background-color: cornflowerblue;
+cursor: pointer;
+border-radius: 10px;
+
+
+}
+h4{
+    text-align: center;
+}
+
+.img1{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    cursor: pointer;
+border: 1px solid grey;
+border-radius: 10px;
+
+
+}
+
+#click2{
+    margin: 20px auto;
+    width: 50%;
+border: 1px solid grey;
+display: flex;
+justify-content: space-around;
+background-color: beige;
+border-radius: 10px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: #f2f2f2;
+}
+button {
+    cursor: pointer;
+}
+
+
+
+#imageContainer {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    width: 50%;
+    margin: 20px auto;
+}
+
+#imageContainer img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+#imageContainer:hover img {
+    transform: scale(1.1);
+}
+
+#counterDisplay {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+
+#click5{
+width: 50%;
+margin: 20px auto;
+text-align: center;
+border: 1px solid grey;
+border-radius: 10px;
+;
+}
