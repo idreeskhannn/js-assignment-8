@@ -26,10 +26,10 @@ function showMessage(message) {
 
 
 function deleteRow(button) {
-    // Traverse the DOM to find the row containing the clicked button
+
     var row = button.parentNode.parentNode;
     
-    // Remove the row from the table
+
     row.parentNode.removeChild(row);
 }
 
